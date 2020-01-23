@@ -12,4 +12,6 @@
 
 # NOTE -
 
-Testing this on 20200123- You can not assign "Compute Engine Instance Admin (v1)" role to the service account created for account file. The workaround is to modify the service accout from IAM settings and add the role. Word Engine is dropped from the rol name. I added "Compute Instance Admin (v1)" role.
+Testing this on 20200123- You can not assign "Compute Engine Instance Admin (v1)" role to the service account created for account file. The workaround is to modify the service accout from IAM settings and add the role. Word Engine is dropped from the rol name. I added "Compute Instance Admin (v1)" role. 
+
+Upon running mtps.py --create-test-prepper, permission issues raised related to firewall creation. I added "Compute Security Admin" role to the service account. 
